@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+import 'package:test_app_flutter/screens/course.screen.dart';
+
+void main() {
+  runApp(CourseHomeApp());
+}
+
+class CourseHomeApp extends StatelessWidget {
+  const CourseHomeApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      theme: ThemeData(
+        fontFamily: "Poppins"
+      ),
+     debugShowCheckedModeBanner: false,
+      home: CourseScreenApp()
+    );
+  }
+}
