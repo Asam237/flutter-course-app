@@ -13,15 +13,10 @@ A sleek and modern **Flutter** application designed to display educational cours
 - Responsive layout
 - Clean and structured project architecture
 
-## 📁 Project Structure
-
 ## 🖼️ Screenshots
 
-_Add screenshots of your Home screen and Detail screen in the `screenshots/` folder and reference them below._
-
-| Home Screen | Course Detail |
-|-------------|--------------|
-| ![Home](screenshots/home.png) | ![Detail](![s1.png](assets%2Fpictures%2Fs1.png)) |
+![s2.png](assets%2Fpictures%2Fs2.png)
+![s1.png](assets%2Fpictures%2Fs1.png)
 
 ## 🛠 Getting Started
 
