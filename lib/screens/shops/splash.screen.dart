@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_app_flutter/components/button.component.dart';
+import 'package:test_app_flutter/screens/shops/home.screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -14,26 +15,50 @@ class SplashScreen extends StatelessWidget {
               padding: EdgeInsets.only(top: 100.0),
               height: double.infinity,
               width: double.infinity,
-              decoration: BoxDecoration(color: Color.fromRGBO(237, 237, 237, 1)),
+              decoration:
+                  BoxDecoration(color: Color.fromRGBO(237, 237, 237, 1)),
               child: Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 20.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("a contemporary fashion\nbrand that embodies sleek\nsophistication".toUpperCase(), style: TextStyle(),),
-                    SizedBox(height: 14.0,),
+                    Text(
+                      "a contemporary fashion\nbrand that embodies sleek\nsophistication"
+                          .toUpperCase(),
+                      style: TextStyle(),
+                    ),
+                    SizedBox(
+                      height: 14.0,
+                    ),
                     Row(
                       children: [
-                        Image.asset("assets/pictures/tshirt.png", width: 24.0, height: 24.0,),
-                        SizedBox(width: 6.0,),
-                        Image.asset("assets/pictures/jeans.png", width: 24.0, height: 24.0,),
+                        Image.asset(
+                          "assets/pictures/tshirt.png",
+                          width: 24.0,
+                          height: 24.0,
+                        ),
+                        SizedBox(
+                          width: 6.0,
+                        ),
+                        Image.asset(
+                          "assets/pictures/jeans.png",
+                          width: 24.0,
+                          height: 24.0,
+                        ),
                       ],
                     ),
-                    SizedBox(height: 46.0,),
+                    SizedBox(
+                      height: 46.0,
+                    ),
                     Align(
-                      alignment: Alignment.center,
-                        child: Text("mavero".toUpperCase(), style: TextStyle(fontSize: 80,),)),
+                        alignment: Alignment.center,
+                        child: Text(
+                          "mavero".toUpperCase(),
+                          style: TextStyle(
+                            fontSize: 80,
+                          ),
+                        )),
                   ],
                 ),
               ),
@@ -69,7 +94,11 @@ class SplashScreen extends StatelessWidget {
                       ),
                       CustomButton(
                         text: "SHOP WOMAN",
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.of(context).pushReplacement(
+                              new MaterialPageRoute(
+                                  builder: (builder) => HomeShopApp()));
+                        },
                         txtColor: Colors.black,
                         color: Colors.white,
                       ),
