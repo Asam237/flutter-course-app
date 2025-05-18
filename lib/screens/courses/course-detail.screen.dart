@@ -50,7 +50,7 @@ class CourseDetail extends StatelessWidget {
               )),
               Container(
                 color: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 40.0, horizontal: 20.0),
+                padding: const EdgeInsets.symmetric(vertical: 40.0, horizontal: 10.0),
                 margin: EdgeInsets.only(top: 320.0),
                 child: Column(
                   children: [
@@ -81,7 +81,7 @@ class CourseDetail extends StatelessWidget {
                 SizedBox(height: 10,),
                 Text(detail, style: TextStyle(fontSize: 14.0, color: Colors.blueGrey),),
                 CSeparator(),
-                CustomButton(text: "Next", onPressed: (){}),
+                CustomButton(color: Colors.black, text: "Next", onPressed: (){}),
                   ],
                 ),
               )

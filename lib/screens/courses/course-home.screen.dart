@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_app_flutter/components/card-item.component.dart';
 import 'package:test_app_flutter/components/section-title.component.dart';
 import 'package:test_app_flutter/components/separator.component.dart';
-import 'package:test_app_flutter/screens/course-detail.screen.dart';
+import 'package:test_app_flutter/screens/courses/course-detail.screen.dart';
 
 class CourseHome extends StatelessWidget {
   const CourseHome({super.key});
@@ -65,7 +65,7 @@ class _CourseState extends State<Course> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 20),
+      padding: const EdgeInsets.symmetric(vertical: 40, horizontal: 10),
       child: ListView(
         children: [
           Text("Explore",

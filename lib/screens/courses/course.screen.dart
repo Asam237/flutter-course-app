@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:test_app_flutter/components/button.component.dart';
 import 'package:test_app_flutter/components/separator.component.dart';
-import 'package:test_app_flutter/screens/course-home.screen.dart';
+import 'package:test_app_flutter/screens/courses/course-home.screen.dart';
 
 class CourseScreenApp extends StatelessWidget {
   const CourseScreenApp({super.key});
@@ -47,7 +47,7 @@ class _CourseState extends State<Course> {
                Container(
                    child: Text("Revised curriculum with a more concise syllabus", style: TextStyle(fontSize: 15.0), textAlign: TextAlign.center,)),
                 CSeparator(),
-                CustomButton(text: "Next", onPressed: () {
+                CustomButton(color: Colors.black, text: "Next", onPressed: () {
                   Navigator.of(context).pushReplacement(new MaterialPageRoute(builder: (context) => CourseHome()));
                 }),
               ],
