@@ -17,6 +17,10 @@ A sleek and modern **Flutter** application designed to display educational cours
 
 ![s2.png](assets%2Fpictures%2Fs2.png)
 ![s1.png](assets%2Fpictures%2Fs1.png)
+![Screenshot 2025-05-19 081711.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081711.png)
+![Screenshot 2025-05-19 081748.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081748.png)
+![Screenshot 2025-05-19 081811.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081811.png)
+![Screenshot 2025-05-19 081927.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081927.png)
 
 ## 🛠 Getting Started
 
