@@ -11,7 +11,7 @@ class SplashScreen extends StatelessWidget {
       body: Column(
         children: [
           Flexible(
-            child: Container(
+            child:  Container(
               padding: EdgeInsets.only(top: 100.0),
               height: double.infinity,
               width: double.infinity,

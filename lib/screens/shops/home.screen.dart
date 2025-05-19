@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_app_flutter/screens/shops/detail.screen.dart';
 
 class HomeShopApp extends StatelessWidget {
   const HomeShopApp({super.key});
@@ -59,7 +60,7 @@ class HomeShopApp extends StatelessWidget {
 class HomeShop extends StatelessWidget {
   const HomeShop({super.key});
 
-  List<Widget> _buildCard() {
+  List<Widget> _buildCard(BuildContext context) {
     final items = [
       {
         "picture": "assets/pictures/c1.png",
@@ -93,7 +94,15 @@ class HomeShop extends StatelessWidget {
       },
     ];
     return items.map((item) {
-      return cardItem(item["picture"]!, item["title"]!, item["price"]!);
+      return InkWell(
+          onTap: () {
+            Navigator.of(context).push(new MaterialPageRoute(
+                builder: (builder) => DetailShopScreen(
+                    picture: item["picture"]!,
+                    title: item["title"]!,
+                    price: item["price"]!)));
+          },
+          child: cardItem(item["picture"]!, item["title"]!, item["price"]!));
     }).toList();
   }
 
@@ -127,9 +136,7 @@ class HomeShop extends StatelessWidget {
             childAspectRatio: 0.57,
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
-            children: [
-              ..._buildCard()
-            ],
+            children: [..._buildCard(context)],
           )
         ],
       ),
@@ -148,9 +155,9 @@ Widget buildItems(String title, {bool isFirst = false}) {
     ),
     child: Center(
         child: Text(
-          title.toUpperCase(),
-          style: TextStyle(color: isFirst ? Colors.white : Colors.black),
-        )),
+      title.toUpperCase(),
+      style: TextStyle(color: isFirst ? Colors.white : Colors.black),
+    )),
   );
 }
 
