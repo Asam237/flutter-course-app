@@ -1,5 +1,6 @@
 # 📚 Flutter Course UI Design App
 
+
 A sleek and modern **Flutter** application designed to display educational course content with a clean UI and reusable components. This app showcases horizontal course categories, a detailed course view with an image header, and user-friendly navigation. It is ideal for developers learning UI design principles in Flutter.
 
 ## 🚀 Features
@@ -17,10 +18,10 @@ A sleek and modern **Flutter** application designed to display educational cours
 
 ![s2.png](assets%2Fpictures%2Fs2.png)
 ![s1.png](assets%2Fpictures%2Fs1.png)
-![Screenshot 2025-05-19 081711.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081711.png)
-![Screenshot 2025-05-19 081748.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081748.png)
-![Screenshot 2025-05-19 081811.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081811.png)
-![Screenshot 2025-05-19 081927.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202025-05-19%20081927.png)
+![3.png](assets%2Fpictures%2F3.png)
+![4.png](assets%2Fpictures%2F4.png)
+![5.png](assets%2Fpictures%2F5.png)
+![6.png](assets%2Fpictures%2F6.png)
 
 ## 🛠 Getting Started
 
